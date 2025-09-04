@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #181818;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.slogan{
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 37%;
+    left: 40%;
+}
+
+.email-input, .password-input{
+    border: none;
+    background-color: rgb(71, 70, 70);
+}
+
+.email-input{
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 38%;
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.password-input{
+    position: absolute;
+    color: black;
+    top: 60%;
+    left: 38%;
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.email-icon{
+    position: absolute;
+    z-index: 2;
+    top: 51%;
+    left: 62%;
+    background-color: rgb(71, 70, 70); 
+}
+
+.password-icon{
+    position: absolute;
+    z-index: 2;
+    top: 60.5%;
+    left: 62%;
+    background-color: rgb(71, 70, 70); 
+}
+
+.login-button{
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    width: 180px;
+    height: 35px;
+    border-radius: 17px;
+    top: 72%;
+    left: 45%;
+    position: absolute;
+}
+
+.login-button:hover{
+    background-color: rgb(112, 109, 109);
+}
+
+.signup-link{
+    position: absolute;
+    top: 82%;
+    left: 42%;
+    font-size: 13px;
+}
+
+.subscribe{
+  text-align: center;
+  font-size: 18px; 
+  font-weight: bold; 
+  font-size: 35px;
+  top: 22%;
+  position: absolute;
+  left: 40%;
+}
+
+
+.email-input-singup, .create-password, .name-input {
+    border: none;
+    background-color: rgb(71, 70, 70);
+    color: black;
+}
+
+
+.email-input-singup {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.signup-email-icon {
+    position: absolute;
+    z-index: 2;
+    top: 50.5%;
+    left: 62%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(71, 70, 70);
+    pointer-events: none;
+}
+
+
+.create-password {
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.signup-lock-icon {
+    position: absolute;
+    z-index: 2;
+    top: 60.5%;
+    left: 62%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(71, 70, 70);
+    pointer-events: none;
+}
+
+
+.name-input {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.signup-user-icon {
+    position: absolute;
+    z-index: 2;
+    top: 70.5%;
+    left: 62%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(71, 70, 70);
+    pointer-events: none;
+}
+
+
+.singup-button {
+    position: absolute;
+    top: 82%;
+    left: 45%;
+    width: 180px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.singup-button:hover {
+    background-color: rgb(112, 109, 109);
+}
+
+
+.subscribe {
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.login-link {
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    font-size: 15px;
+    color: white;
+}
